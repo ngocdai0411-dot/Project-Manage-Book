@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "name": "Chủ cửa hàng",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "staff",
+      "password": "123",
+      "name": "Nhân viên bán hàng",
+      "role": "staff"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Lập trình Web",
+      "description": "Tài liệu về Frontend và Backend",
+      "createdAt": "2026-06-18T01:30:00.000Z",
+      "updatedAt": "2026-06-18T01:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Cơ sở dữ liệu",
+      "description": "Sách về SQL và NoSQL",
+      "createdAt": "2026-06-18T01:35:00.000Z",
+      "updatedAt": "2026-06-18T01:35:00.000Z"
+    },
+    {
+      "name": "ffv",
+      "description": "vdfv",
+      "createdAt": "2026-10-25T03:39:28.944Z",
+      "updatedAt": "2026-10-25T03:39:28.944Z",
+      "id": "TxJE7LkzlyI"
+    },
+    {
+      "name": "fvefv",
+      "description": "vdfvdfd",
+      "createdAt": "2026-10-25T03:46:42.907Z",
+      "updatedAt": "2026-10-25T03:46:42.907Z",
+      "id": "eAuPoThHk8A"
+    },
+    {
+      "name": "rfrfr",
+      "description": "fr",
+      "createdAt": "2026-11-08T09:56:23.380Z",
+      "updatedAt": "2026-11-08T09:56:23.380Z",
+      "id": "kdUWFjWlwt0"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Lập trình Frontend với ReactJS",
+      "price": 150000,
+      "quantity": 25,
+      "categoryId": 1,
+      "description": "Sách hướng dẫn từ cơ bản đến nâng cao về ReactJS và Tailwind CSS",
+      "image": ""
+    },
+    {
+      "id": "2",
+      "name": "Cơ sở dữ liệu SQL từ A đến Z",
+      "price": 180000,
+      "quantity": 30,
+      "categoryId": 2,
+      "description": "Tài liệu học thiết kế cơ sở dữ liệu và tối ưu hóa truy vấn SQL",
+      "image": ""
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
